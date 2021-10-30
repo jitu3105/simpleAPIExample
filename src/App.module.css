@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.nav{
+  display:flex;
+  position:fixed;
+  bottom:0vh;
+  left:50%;
+  transform:translate(-50%,-10%);
+}
+
+.navbtn{
+ padding:2vh;
+ font-weight: bolder;
+ border:none;
+ border-radius:10px;
+ background:mediumslateblue; 
+ margin:1vh;
+ cursor:pointer;
+}
+
+.navpage{
+  padding:2vh;
+ font-weight: bolder;
+ border:none;
+ border-radius:10px;
+ margin:1vh;
+ color:#fff;
+ background:#202020;
+}
+
+.showcase{
+  background:mediumslateblue;
+  height:88vh;
+  display:flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+.card{
+  margin:2vh auto;
+  background:#fff;
+  padding:1vh;
+  display:flex;
+  flex-direction: column;
+  width:30vh;
+  border-radius: 10px;
+  height:30vh;
+  padding:2vh;
+  margin-bottom: 2vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatarContainer{
+  width:100px;
+  height:100px;
+  overflow:hidden;
+  border-radius: 999px;
+}
+
+.avatarContainer img{
+  width:100%;
+  height:100%;
+
+}
+
+.cardText{
+  display:flex;
+  flex-direction: column;
+}
